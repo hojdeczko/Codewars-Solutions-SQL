@@ -1,0 +1,4 @@
+--Link to the kata: https://www.codewars.com/kata/59401e0e54a655a298000040
+
+SELECT id, name, position(',' in characteristics) AS comma FROM monsters
+ORDER BY COMMA;
